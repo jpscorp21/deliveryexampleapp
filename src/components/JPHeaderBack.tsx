@@ -9,7 +9,7 @@ import {
 } from '@ionic/react';
 
 export interface HeaderBackProps {
-  titulo: string;
+  titulo?: string;
   children?: any;
   defaultHref: string;
 }
@@ -25,7 +25,7 @@ const JPHeaderBack: React.SFC<HeaderBackProps> = ({
         <IonButtons slot="start">
           <IonBackButton defaultHref={defaultHref} />
         </IonButtons>
-        <IonTitle>{titulo}</IonTitle>
+        {titulo && <IonTitle>{titulo}</IonTitle>}
         {children}
       </IonToolbar>
     </IonHeader>

@@ -8,7 +8,7 @@ import {
 } from '@ionic/react';
 
 export interface HeaderProps {
-  titulo: string;
+  titulo?: string;
   children?: any;
 }
 
@@ -19,7 +19,7 @@ const JPHeader: React.SFC<HeaderProps> = ({ titulo, children }) => {
         <IonButtons slot="start">
           <IonMenuButton />
         </IonButtons>
-        <IonTitle>{titulo}</IonTitle>
+        {titulo && <IonTitle>{titulo}</IonTitle>}
         {children}
       </IonToolbar>
     </IonHeader>
