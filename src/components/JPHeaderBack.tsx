@@ -5,19 +5,25 @@ import {
   IonButtons,
   IonMenuButton,
   IonTitle,
+  IonBackButton,
 } from '@ionic/react';
 
-export interface HeaderProps {
+export interface HeaderBackProps {
   titulo: string;
   children?: any;
+  defaultHref: string;
 }
 
-const JPHeader: React.SFC<HeaderProps> = ({ titulo, children }) => {
+const JPHeaderBack: React.SFC<HeaderBackProps> = ({
+  titulo,
+  children,
+  defaultHref,
+}) => {
   return (
     <IonHeader>
       <IonToolbar>
         <IonButtons slot="start">
-          <IonMenuButton />
+          <IonBackButton defaultHref={defaultHref} />
         </IonButtons>
         <IonTitle>{titulo}</IonTitle>
         {children}
@@ -26,4 +32,4 @@ const JPHeader: React.SFC<HeaderProps> = ({ titulo, children }) => {
   );
 };
 
-export default JPHeader;
+export default JPHeaderBack;

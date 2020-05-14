@@ -1,0 +1,144 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "titulo": "Celular 1",
+      "imagen": "https://www.tupi.com.py/imagen_png/600__600__18eba7-59863.png",
+      "precio": 100000,
+      "cantidad": 10,
+      "esFavorito": true,
+      "vendido": 25,
+      "enCarrito": true
+    },
+    {
+      "id": 2,
+      "titulo": "Celular Samsung S20 128 GB",
+      "imagen": "https://www.mitiendavision.com/content/images/thumbs/0033939_celular-samsung-galaxy-s20-128-gb_550.jpeg",
+      "precio": 6000000,
+      "cantidad": 12,
+      "esFavorito": false,
+      "vendido": 24,
+      "enCarrito": false
+    },
+    {
+      "id": 3,
+      "titulo": "Celular 2",
+      "imagen": "https://cdn.shopify.com/s/files/1/0241/9487/5447/products/3bb8d9f9c377b1c7013531691b855d3b_00b466cd-c689-4d96-955e-d322c58d848f_1024x.jpg?v=1581503292",
+      "precio": 600000,
+      "cantidad": 20,
+      "esFavorito": false,
+      "vendido": 43,
+      "enCarrito": true
+    },
+    {
+      "id": 4,
+      "titulo": "Celular 3",
+      "imagen": "https://cdn.shopify.com/s/files/1/0241/9487/5447/products/8a38afa79bdcbf54c46069ef7382e753_1024x.jpg?v=1581603671",
+      "precio": 6600000,
+      "cantidad": 10,
+      "esFavorito": false,
+      "vendido": 56,
+      "enCarrito": true
+    },
+    {
+      "id": 5,
+      "titulo": "Celular 5",
+      "imagen": "https://cellularcenter.com.uy/cache/cellularcenter/products/HUN5TBKAMC-1-1000x1000.jpg",
+      "precio": 180000,
+      "cantidad": 24,
+      "esFavorito": false,
+      "vendido": 89,
+      "enCarrito": false
+    },
+    {
+      "id": 6,
+      "titulo": "Celular Sin Imagen",
+      "imagen": null,
+      "precio": 4850000,
+      "cantidad": 17,
+      "esFavorito": false,
+      "vendido": 67,
+      "enCarrito": false
+    },
+    {
+      "id": 7,
+      "titulo": "Huawei Nova 5T Honor 20",
+      "imagen": "https://www.mytrendyphone.es/images/Puro-0-3-Nude-TPU-Case-for-Huawei-Nova-5T-Honor-20-Honor-20S-transparent-8033830286582-24122019-01-p.jpg",
+      "precio": 4800000,
+      "cantidad": 32,
+      "esFavorito": false,
+      "vendido": 120,
+      "enCarrito": false
+    },
+    {
+      "id": 8,
+      "titulo": "Celular 6",
+      "imagen": "https://www.coradir.com.ar/producto/imagen_grande/850",
+      "precio": 1800000,
+      "cantidad": 22,
+      "esFavorito": false,
+      "vendido": 97,
+      "enCarrito": true
+    },
+    {
+      "id": 9,
+      "titulo": "Celular 7",
+      "imagen": "https://www.alexsa.com.py/wp-content/uploads/2019/09/8395.jpg",
+      "precio": 3400000,
+      "cantidad": 21,
+      "esFavorito": false,
+      "vendido": 85,
+      "enCarrito": false
+    },
+    {
+      "id": 10,
+      "titulo": "Celular Nokia 25",
+      "imagen": "https://acidcow.com/pics/20130906/nokia_25.jpg",
+      "precio": 1600000,
+      "cantidad": 180,
+      "esFavorito": false,
+      "vendido": 65,
+      "enCarrito": true
+    },
+    {
+      "id": 11,
+      "titulo": "Celular 8",
+      "imagen": "https://media.aws.alkosto.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/7/7/7705946371001_5.jpg",
+      "precio": 3800000,
+      "cantidad": 21,
+      "esFavorito": true,
+      "vendido": 13,
+      "enCarrito": true
+    },
+    {
+      "id": 12,
+      "titulo": "Celular Dial SIM Standby",
+      "imagen": "https://ae01.alicdn.com/kf/HTB1PvFuPVXXXXczXpXXq6xXFXXX0/S9830-dual-SIM-dual-standby-tel-fono-m-vil-2-8-pulgadas-pantalla-tel-fono-celular.jpg_q50.jpg",
+      "precio": 4500000,
+      "cantidad": 11,
+      "esFavorito": false,
+      "vendido": 12,
+      "enCarrito": false
+    },
+    {
+      "id": 13,
+      "titulo": "Celular 9",
+      "imagen": "https://i.pinimg.com/originals/12/02/82/1202825bb9cb1c25d8bdc6675ecd0fec.jpg",
+      "precio": 3830000,
+      "cantidad": 12,
+      "esFavorito": true,
+      "vendido": 60,
+      "enCarrito": false
+    },
+    {
+      "id": 14,
+      "titulo": "Celular 10",
+      "imagen": "https://m.lapulga.com.do/f/6456385-1.jpg",
+      "precio": 3850000,
+      "cantidad": 11,
+      "esFavorito": false,
+      "vendido": 30,
+      "enCarrito": true
+    }
+  ]
+}

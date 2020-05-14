@@ -28,6 +28,7 @@ import Productos from './pages/productos/Productos';
 import Pedidos from './pages/pedidos/Pedidos';
 import Inicio from './pages/inicio/Inicio';
 import AcercaDe from './pages/acerca-de/AcercaDe';
+import ProductosDetalle from './pages/productos/ProductosDetalle';
 
 const App: React.FC = () => {
   return (
@@ -38,6 +39,11 @@ const App: React.FC = () => {
           <IonRouterOutlet id="main">
             <Route path="/inicio" component={Inicio} exact />
             <Route path="/productos" component={Productos} exact />
+            <Route
+              path="/productos/detalle/:id"
+              component={ProductosDetalle}
+              exact
+            />
             <Route path="/acercade" component={AcercaDe} exact />
             <Route path="/pedidos" component={Pedidos} exact />
             <Redirect from="/" to="/inicio" exact />

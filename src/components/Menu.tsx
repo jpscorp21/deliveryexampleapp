@@ -11,7 +11,7 @@ import {
 
 import React from 'react';
 import { useLocation } from 'react-router-dom';
-import { home, document, person, cart } from 'ionicons/icons';
+import { home, document, cart } from 'ionicons/icons';
 import './Menu.css';
 
 interface AppPage {

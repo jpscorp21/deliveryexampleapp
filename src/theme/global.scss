@@ -1,1 +1,19 @@
+ion-row {
+  display: flex;
+}
 
+ion-list {
+  background: transparent !important;
+}
+
+ion-grid {
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 992px) {
+  ion-grid {
+    margin-left: 100px !important;
+    margin-left: 100px !important;
+  }
+}
